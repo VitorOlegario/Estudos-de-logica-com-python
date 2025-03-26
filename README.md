@@ -1,2 +1,3 @@
-# Estudos-de-logica-com-python
-Repositório de estudo de lógica de programação com python.
+# Estudos GitHUb
+
+##Repositório para fins de estudo e trabalho com GitHub.
