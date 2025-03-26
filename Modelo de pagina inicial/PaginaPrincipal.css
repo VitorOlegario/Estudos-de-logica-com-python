@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-image: url("imagens/Fundo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    background-attachment: fixed;
+    position: relative; /* Necessário para posicionamento absoluto das linhas */
+    overflow: hidden; /* Evita que as linhas saiam da tela */
+}
+
+/* Estilização dos botões (mantida como estava) */
+.botao-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 160px;
+    left: 730px;
+}
+
+#recebimento {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: transparent;
+    background-image: url("imagens/botao_recebimento.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+#recebimento:hover {
+    transform: scale(1.1);
+}
+
+.botao-texto {
+    margin-top: 1px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.botao-container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    left: 810px;
+}
+
+#analise {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: transparent;
+    background-image: url("imagens/analise.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+#analise:hover {
+    transform: scale(1.1);
+}
+
+.botao-texto2 {
+    margin-top: 1px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.botao-container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: -8px;
+    left: 960px;
+}
+
+#reparo {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: transparent;
+    background-image: url("imagens/reparo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+#reparo:hover {
+    transform: scale(1.1);
+}
+
+.botao-texto3 {
+    margin-top: 1px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.botao-container4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 70px;
+    left: 1100px;
+}
+
+#qualidade {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: transparent;
+    background-image: url("imagens/qualidade.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+#qualidade:hover {
+    transform: scale(1.1);
+}
+
+.botao-texto4 {
+    margin-top: 1px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.botao-container5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 220px;
+    left: 1130px;
+}
+
+#expedicao {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: transparent;
+    background-image: url("imagens/expedicao.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+#expedicao:hover {
+    transform: scale(1.1);
+}
+
+.botao-texto5 {
+    margin-top: 1px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.botao-container6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 130px;
+    left: 870px;
+}
+
+#relatorio {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: transparent;
+    background-image: url("imagens/kpi.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    position: relative; /* Necessário para a rotação */
+}
+
+#relatorio:hover {
+    transform: scale(1.1);
+}
+
+
+.botao-container7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 750px;
+    top: 300px;
+}
+
+#voltar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: transparent;
+    background-image: url("imagens/logout.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+#voltar:hover {
+    transform: scale(1.1);
+}
+
+.botao-texto7 {
+    margin-top: 1px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+
